@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Private local data — Jonathan's own labeled email. NEVER commit or upload.
+evals/data/gold_set.jsonl
+
+# Generated eval reports
+reports/*.json
+reports/*.md
+!reports/.gitkeep
